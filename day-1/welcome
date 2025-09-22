@@ -14,5 +14,6 @@ C:\Users\Amitranjan\Desktop\MERN>cd GIET-MERN-QLITH
 
 C:\Users\Amitranjan\Desktop\MERN\GIET-MERN-QLITH>code .
 
-C:\Users\Amitranjan\Desktop\MERN\GIET-MERN-QLITH> git status
-git add .
+C:\Users\Amitranjan\Desktop\MERN\GIET-MERN-QLITH>in vscode git status
+git add . 
+git push
