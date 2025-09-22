@@ -1,0 +1,18 @@
+This is 1st class
+
+Set up node
+set up git and github
+
+C:\Users\Amitranjan\Desktop\MERN>git clone https://github.com/Amit7831/GIET-MERN-QLITH.git
+Cloning into 'GIET-MERN-QLITH'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+C:\Users\Amitranjan\Desktop\MERN>cd GIET-MERN-QLITH
+
+C:\Users\Amitranjan\Desktop\MERN\GIET-MERN-QLITH>code .
+
+C:\Users\Amitranjan\Desktop\MERN\GIET-MERN-QLITH> git status
+git add .
