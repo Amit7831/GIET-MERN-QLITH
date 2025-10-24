@@ -1,0 +1,62 @@
+@import url(design2.css);
+/* *{
+    font-weight: bold;
+}
+p{
+    background-color: blueviolet;
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.paragraph{
+    background-color: chartreuse;
+}
+
+b,strong,p{
+
+    background-color: brown;
+} */
+
+.parent p{
+    background-color: rgb(13, 201, 129);
+}
+.parent>p{
+    background-color: rgb(196, 246, 255);
+}
+.parent + p{
+    background-color: rgb(84, 146, 105);
+}
+.parent ~ p{
+    background-color: rgb(33, 164, 136);
+}
+
+.learn-pesudo{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+.learn-pesudo:hover{
+    background-color: red;
+}
+.learn-pesudo:active{
+    background-color: green;
+}
+
+input:focus{
+    background-color: darkmagenta;
+}
+
+ul li:first-child{
+    background-color: rgb(242, 24, 180);
+}
+ul li:last-child{
+    background-color: rgb(184, 115, 11);
+}
+ul li:nth-child(2),:nth-child(3){
+    background-color: rgb(46, 164, 95);
+}
+/* :nth-child(odd & even) */

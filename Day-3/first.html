@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="design.css">
+    <!-- Internal css -->
+    <!-- <style>
+        h2{
+            color: aqua;
+            
+        }
+        p{
+            background-color: aqua;
+        }
+    </style> -->
+</head>
+<body>
+    <!-- there are four way we cam apply the css property -->
+
+    <!--1. Inline css
+        2. Internal css
+        3.External css
+        4. Import statement  -->
+
+        <!-- Inline css -->
+         <h1 style="background-color: yellow;">this is the heading</h1>
+         <!-- Internal css -->
+         <h2>this is internal css</h2>
+
+         <!-- External css -->
+          <p>Lorem ipsum dolor sit amet.</p>
+
+          <!-- Selector -->
+           <!-- 1.simple selector
+                =>id selector
+                =>class name selector
+                =>tag name selector
+                =>group name selector
+                =>universal selector
+                
+                5. pseduo element selector -->
+                
+                <div id="box"></div>
+                <p class="paragraph">Lorem ipsum dolor sit amet.</p>
+                
+                <b>this is bold</b>
+                <strong>this is storng</strong>
+                <p>Lorem ipsum dolor sit amet.</p>
+
+                <!-- 2.combinator selector
+                    => descdent selector
+                    => direct child selector
+                    => adjacent sibling selector
+                    => general sibling selector -->
+                    <div class="parent">
+                        <p>child one</p>
+                        <div class="child">
+                            <p>indirect child</p>
+                        </div>
+                    </div>
+                    <!-- 3. attribute selector -->
+                    <p>first adjacent</p>
+                     <p>second adjacent</p>
+                     <p>third  adjacent</p>
+                     
+                     <!-- 4. pseudo class selector (false / hidden)
+                          => hover  -cursor
+                          => Active  - click
+                          => focus   - used in input
+                          =>first child
+                          =>last child
+                          =>nth child -->
+                    <div class="learn-pesudo"></div>
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="age">
+
+                    <ul>
+                        <li>first child</li>
+                        <li>second child</li>
+                        <li>third child</li>
+                        <li>fourt child</li>
+                        <li>fiveth child</li>
+                    </ul>
+
+                     
+                
+</body>
+</html>
