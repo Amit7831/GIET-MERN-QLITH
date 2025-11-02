@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 700px;
+    height: 500px;
+    margin: 40px auto;
+    border: 2px solid black;
+
+}
+
+.item {
+    float: left;
+
+}
+
+.item1 {
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    position: relative;
+    /* position: absolute; */
+    top: 100px;
+    left: 30px;
+}
+
+.item2 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(24, 211, 55);
+
+}
+
+.item3 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(124, 70, 161);
+}
+
+.para {
+    background-color: aquamarine;
+    /* position: fixed; */
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+/* .sticky{
+ background-color: rgb(55, 22, 221);
+    position: fixed;
+    
+    top: 0px;
+    left: 0px;   
+} */
+
+nav {
+    width: 100vw;
+    height: 70px;
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+}
+
+.nav-logo {
+    width: 20%;
+    /* background-color: rgba(75, 147, 134, 0.936); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-logo p {
+    color: rgb(182, 39, 211);
+    font-size: 25px;
+}
+
+.nav-logo p span {
+    color: rgb(28, 67, 185);
+    font-size: 25px;
+}
+
+ul {
+    width: 70%;
+    /* background-color: rgb(109, 31, 172); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+ul li{
+    transition-property: color;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+}
+ul li:hover{
+color: red;
+cursor: pointer;
+transform: ;
+}
+.nav-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-btn button {
+    padding: 10px 20px;
+    background-color: rgb(29, 189, 189);
+    border: none;
+    border-radius: 5px;
+    color: rgb(174, 169, 162);
+
+}
+
+.nav-btn button:hover {
+    background-color: rgb(20, 170, 170);
+    /* cursor: pointer; */
+    /* cursor: default; */
+    /* cursor: text; */
+    /* cursor: move; */
+    /* cursor: not-allowed; */
+    /* cursor: wait; */
+    /* cursor: crosshair; */
+cursor: url(''), auto;
+}
+
+.move{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+}
+.move:hover{
+transform: translate(400px);
+
+}

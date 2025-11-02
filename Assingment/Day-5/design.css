@@ -1,0 +1,137 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 150vh;
+}
+.Grid-container{
+    height: 470px;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    grid-template-rows: repeat(8,1fr);
+    gap: 2px;
+    box-shadow:2px 2px 5px rgb(191, 186, 186) ;
+}
+
+.item{
+border:none ;
+text-align: center;
+padding: 10px;
+margin: 1px;
+}
+.header{
+ grid-column: 1/4;
+ grid-row: 1/2;
+ background-color: #41f5ffec;
+}
+.hero{
+    grid-row: 2/4;
+    grid-column: 1/2;
+    background-color: #ddb6eaec;
+}
+.main{
+    grid-row: 2/5;
+    grid-column: 2/4;
+    background-color: #ffcd38ec;
+}
+.main p{
+    font-size: small;
+}
+.sidebar{
+    grid-row: 4/7;
+    background-color: #5f8346ec;
+    
+}
+.extra{
+    grid-row: 5/7;
+    grid-column: 2/4;
+    background-color: #4f4f4fec;
+    
+}
+.img{
+    grid-column: 1/3;
+    background-color: #136d1ccd;
+}
+.post{
+    grid-column: 3/4;
+    background-color: #fbd9ffcd;
+
+}
+.footer{
+    grid-column: 1/4;
+    background-color: #ff9b18;
+}
+
+
+
+.card-container{
+    width: 660px ;
+    height: 500px;
+    background-color: #bbc0c0ec;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+.card{
+    width: 320px ;
+    height: 400px;
+    padding: 1px;
+    background-color: #ffffffec;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 10px 15px 10px rgba(139, 128, 128,0.5);
+}
+.card-1{
+    height: 50%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: #92dcbd;
+}
+img{
+    height: 55px;
+    opacity: 0.7;
+}
+.card-2{
+    padding: 15px 10px 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    width: 50px;
+    height: 15px;
+    padding: 4px;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(184, 184, 184);
+    border-radius: 7px;
+    
+}
+h2{
+    font-size: 25px;
+    margin-top: 5px;
+   display: block;
+}
+.card-2 p{
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 1px;
+    margin-right: 30px;
+   
+}
+button{
+    width: 300px;
+    height: 40px;
+   
+    border-radius: 17px;
+    background-color: #5d70ffcc;
+    border: none;
+    color: white;
+}
