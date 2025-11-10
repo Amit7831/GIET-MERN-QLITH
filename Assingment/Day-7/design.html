@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav class="w-[100%] h-[8%]  shadow-2xl p-2 bg-red-5 flex items-center">
+    
+            <div class="w-[33%]">
+                <p class="font-bold">HR <span class="bg-sky-950 p-1 rounded-[10%] text-white">Acme</span></p>
+            </div>
+            <div class="border-2 border-gray-300 rounded-lg p-1 w-[34%]">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span class="text-gray-500 font-serif"> search</span>
+            </div>
+            <div class="w-[33%] flex  justify-end items-center ">
+                <div class="mr-4 text-gray-500 hover:cursor-pointer">
+                    Admin Panel
+                </div>
+                <div class="mr-4">
+                    <i class="fa-solid fa-gear mr-2 hover:cursor-pointer "></i>
+                    <i class="fa-solid fa-share-nodes mr-2 hover:cursor-pointer  "></i>
+                    <i class="fa-solid fa-circle-plus mr-2 hover:cursor-pointer "></i>
+                    <i class="fa-regular fa-message mr-2 hover:cursor-pointer "></i>
+                    <i class="fa-regular fa-bell mr-2 hover:cursor-pointer "></i>
+                </div>
+                <div class="p-1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6FQLGhLIehe1XzOMKCTBjyipnfHdKMI-4EA&s"
+                        alt="" class="h-[35px] rounded-[50%] border-1 border-white hover:cursor-pointer">
+                </div>
+            </div>
+    
+    
+        </nav>
+
+    </header>
+    <main class="min-w-screen min-h-screen">
+
+
+        <section class="w-[100%] h-[92%]  flex">
+            <div class="w-[4%] h-200  bg-gray-900  flex flex-col items-center ">
+                <div class=" flex flex-col items-center mt-5 p-2 w-full  hover:cursor-pointer hover:bg-indigo-300  ">
+                    <i class="fa-solid fa-table-cells-large text-white "></i>
+                    <span class="font-sans text-xs text-white">Services</span>
+                </div>
+                <div class=" flex flex-col items-center mt-5  p-2 w-full  hover:cursor-pointer hover:bg-indigo-300 ">
+                    <i class="fa-regular fa-house  h-5 text-white"></i>
+                    <span class="font-sans text-xs text-white">Home</span>
+                </div>
+                <div class=" flex flex-col items-center mt-5 p-2 w-full  hover:cursor-pointer hover:bg-indigo-300 ">
+                    <i class="fa-regular fa-calendar h-5 text-white"></i>
+                    <span class="font-sans text-xs text-white">Calender</span>
+                </div>
+                <div class=" flex flex-col items-center mt-5 p-2 w-full  hover:cursor-pointer hover:bg-indigo-300 ">
+                    <i class="fa-regular fa-file h-5 text-white"></i>
+                    <span class="font-sans text-xs text-white">Files</span>
+                </div>
+                <div class=" flex flex-col items-center mt-5 p-2 w-full  hover:cursor-pointer hover:bg-indigo-300 ">
+                    <i class="fa-solid fa-store h-5 text-white"></i>
+                    <span class="font-sans text-xs text-white">Companies</span>
+                </div>
+                <div class=" flex flex-col items-center mt-5 p-2 w-full  hover:cursor-pointer hover:bg-indigo-300 ">
+                    <i class="fa-solid fa-list-check h-5 text-white"></i>
+                    <span class="font-sans text-xs text-white">Task</span>
+                </div>
+                <div class=" flex flex-col items-center mt-5 p-2 w-full  hover:cursor-pointer hover:bg-indigo-300 ">
+                    <i class="fa-solid fa-clipboard-question h-5 text-white"></i>
+                    <span class="font-sans text-xs text-white">FAQs</span>
+                </div>
+            </div>
+            <div class="w-[95%] h-200 bg-stone-100 pl-10 pr-10 pb-10 pt-5">
+                <div class="w-full h-[40%] ">
+                    <div>
+                        <h3 class="font-sans text-2xl">Services</h3>
+                        <p class="font-serif text-xs">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="mt-8 flex gap-10">
+                        <div class="h-50 w-80 bg-indigo-300  rounded-[3%] shadow-xl flex items-center justify-center flex-col gap-4 hover:cursor-pointer hover:relative hover:bottom-4 hover:shadow-xl/30">
+                            <div class="h-25 w-25 flex justify-center items-center rounded-[50%] bg-stone-100">
+                                <i class="fa-regular fa-house  text-4xl"></i>
+                            </div>
+                            <div class="flex gap-45 text-sm ">
+                                <span class="flex text-white ">Home</span>
+                                <div class="text-white">
+                                    14<i class="fa-regular fa-bell"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="h-50 w-80 bg-yellow-400 rounded-[3%] shadow-xl  flex items-center justify-center flex-col gap-4  hover:cursor-pointer hover:relative hover:bottom-4 hover:shadow-xl/30">
+                            <div class="h-25 w-25 flex justify-center items-center rounded-[50%] bg-stone-100">
+                                <i class="fa-regular fa-calendar  text-4xl"></i>
+                            </div>
+                            <div class="flex gap-45 text-sm ">
+                                <span class="flex text-white ">Calender</span>
+                                <div class="text-white">
+                                    5<i class="fa-regular fa-bell"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="h-50 w-80 bg-sky-400 rounded-[3%] shadow-xl  flex items-center justify-center flex-col gap-4  hover:cursor-pointer hover:relative hover:bottom-4 hover:shadow-xl/30">
+                            <div class="h-25 w-25 flex justify-center items-center rounded-[50%] bg-stone-100">
+                                <i class="fa-regular fa-file  text-4xl"></i>
+                            </div>
+                            <div class="flex gap-45 text-sm ">
+                                <span class="flex text-white ">Files</span>
+                                <div class="text-white">
+                                    21<i class="fa-regular fa-bell"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="h-50 w-80 bg-pink-300 rounded-[3%] shadow-xl  flex items-center justify-center flex-col gap-4  hover:cursor-pointer hover:relative hover:bottom-4 hover:shadow-xl/30">
+                            <div class="h-25 w-25 flex justify-center items-center rounded-[50%] bg-stone-100">
+                                <i class="fa-solid fa-store  text-4xl"></i>
+                            </div>
+                            <div class="flex gap-45 text-sm ">
+                                <span class="flex text-white ">Companies</span>
+                                <div class="text-white">
+                                    17<i class="fa-regular fa-bell"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full h-[60%] mt-10 grid grid-cols-6 gap-4">
+                        <div class="h-50 w-45 shadow-xl bg-slate-50 border-0 rounded-[5%] flex justify-center items-center flex-col hover:shadow-2xl hover:cursor-pointer hover:relative hover:right-5">
+                            <div class="h-20 w-20 rounded-[50%] bg-indigo-300 flex justify-center items-center">
+                                <i class="fa-solid fa-list-check h-5 text-2xl text-white ">
+                                </i>
+                            </div>
+                            <span class="mt-10">Tasks</span>
+                        </div>
+                        <div class="h-50 w-45 shadow-xl bg-slate-50 border-0 rounded-[5%] flex justify-center items-center flex-col hover:shadow-2xl hover:cursor-pointer hover:relative hover:right-5">
+                            <div class="h-20 w-20 rounded-[50%] bg-indigo-300 flex justify-center items-center">
+                                <i class="fa-solid fa-clipboard-question h-5 text-2xl text-white ">
+                                </i>
+                            </div>
+                            <span class="mt-10">FAQs</span>
+                        </div>
+                        <div class="h-50 w-45 shadow-xl bg-slate-50 border-0 rounded-[5%] flex justify-center items-center flex-col hover:shadow-2xl hover:cursor-pointer hover:relative hover:right-5">
+                            <div class="h-20 w-20 rounded-[50%] bg-indigo-300 flex justify-center items-center">
+                                <i class=" fa-solid fa-cake-candles h-5 text-2xl text-white ">
+                                </i>
+                            </div>
+                            <span class="mt-10">Birthdays</span>
+                        </div>
+                        <div class="h-50 w-45 shadow-xl bg-slate-50 border-0 rounded-[5%] flex justify-center items-center flex-col hover:shadow-2xl hover:cursor-pointer hover:relative hover:right-5">
+                            <div class="h-20 w-20 rounded-[50%] bg-indigo-300 flex justify-center items-center">
+                                <i class="fa-regular fa-star h-5 text-2xl text-white ">
+                                </i>
+                            </div>
+                            <span class="mt-10">Favorites</span>
+                        </div>
+                        <div class="h-50 w-45 shadow-xl bg-slate-50 border-0 rounded-[5%] flex justify-center items-center flex-col hover:shadow-2xl hover:cursor-pointer hover:relative hover:right-5">
+                            <div class="h-20 w-20 rounded-[50%] bg-indigo-300 flex justify-center items-center">
+                                <i class="fa-solid fa-champagne-glasses h-5 text-2xl text-white ">
+                                </i>
+                            </div>
+                            <span class="mt-10">Company parties</span>
+                        </div>
+                        <div class="h-50 w-45 shadow-xl bg-slate-50 border-0 rounded-[5%] flex justify-center items-center flex-col hover:shadow-2xl hover:cursor-pointer hover:relative hover:right-5">
+                            <div class="h-20 w-20 rounded-[50%] bg-indigo-300 flex justify-center items-center">
+                                <i class="fa-solid fa-clipboard-list h-5 text-2xl text-white ">
+                                </i>
+                            </div>
+                            <span class="mt-10">Schedule</span>
+                        </div>
+                        <div class="h-50 w-45 shadow-xl bg-slate-50 border-0 rounded-[5%] flex justify-center items-center flex-col hover:shadow-2xl hover:cursor-pointer hover:relative hover:right-5">
+                            <div class="h-20 w-20 rounded-[50%] bg-indigo-300 flex justify-center items-center">
+                                <i class="fa-regular fa-flag h-5 text-2xl text-white ">
+                                </i>
+                            </div>
+                            <span class="mt-10">Goals</span>
+                        </div>
+                        <div class="h-50 w-45 shadow-xl bg-slate-50 border-0 rounded-[5%] flex justify-center items-center flex-col hover:shadow-2xl hover:cursor-pointer hover:relative hover:right-5">
+                            <div class="h-20 w-20 rounded-[50%] bg-indigo-300 flex justify-center items-center">
+                               <i class="fa-regular fa-hourglass-half h-5 text-2xl text-white ">
+                                </i>
+                            </div>
+                            <span class="mt-10">Timelogs</span>
+                        </div>
+                        <div class="h-50 w-45 shadow-xl bg-slate-50 border-0 rounded-[5%] flex justify-center items-center flex-col hover:shadow-2xl hover:cursor-pointer hover:relative hover:right-5">
+                            <div class="h-20 w-20 rounded-[50%] bg-indigo-300 flex justify-center items-center">
+                                <i class="fa-regular fa-folder h-5 text-2xl text-white ">
+                                </i>
+                            </div>
+                            <span class="mt-10">Folders</span>
+                        </div>
+                        <div class="h-50 w-45 shadow-xl bg-slate-50 border-0 rounded-[5%] flex justify-center items-center flex-col hover:shadow-2xl hover:cursor-pointer hover:relative hover:right-5">
+                            <div class="h-20 w-20 rounded-[50%] bg-indigo-300 flex justify-center items-center">
+                                <i class="fa-regular fa-address-card h-5 text-2xl text-white ">
+                                </i>
+                            </div>
+                            <span class="mt-10">Employees</span>
+                        </div>
+                        <div class="h-50 w-45 shadow-xl bg-slate-50 border-0 rounded-[5%] flex justify-center items-center flex-col hover:shadow-2xl hover:cursor-pointer hover:relative hover:right-5">
+                            <div class="h-20 w-20 rounded-[50%] bg-indigo-300 flex justify-center items-center">
+                                <i class="fa-regular fa-bell h-5 text-2xl text-white ">
+                                </i>
+                            </div>
+                            <span class="mt-10">Notification</span>
+                        </div>
+                        <div class="h-50 w-45 shadow-xl bg-slate-50 border-0 rounded-[5%] flex justify-center items-center flex-col hover:shadow-2xl hover:cursor-pointer hover:relative hover:right-5">
+                            <div class="h-20 w-20 rounded-[50%] bg-indigo-300 flex justify-center items-center">
+                                <i class="fa-regular fa-newspaper h-5 text-2xl text-white ">
+                                </i>
+                            </div>
+                            <span class="mt-10">News</span>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+    </main>
+</body>
+
+</html>

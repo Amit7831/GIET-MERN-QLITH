@@ -16,7 +16,7 @@
  }
  .form-group{
     margin-bottom: 15px;
-    font-weight: ;
+     font-weight: 300px; 
  }
 input[type="submit"],
 input[type="reset"]{
@@ -25,4 +25,3 @@ margin-top: 5px;
 border: 2px solid #cac9c9;
 cursor: pointer;
 font-weight:500;
-}
