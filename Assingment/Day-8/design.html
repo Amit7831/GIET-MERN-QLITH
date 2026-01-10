@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Website Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, footer {
+      background-color: #4f46e5;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      padding: 2rem;
+      gap: 2rem;
+    }
+
+    .box {
+      flex: 1;
+      background-color: #f3f4f6;
+      padding: 2rem;
+      text-align: center;
+      border-radius: 10px;
+    }
+
+    /* 📱 Mobile Devices */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Responsive Web Design</h1>
+  </header>
+
+  <main class="container">
+    <div class="box">Section 1</div>
+    <div class="box">Section 2</div>
+    <div class="box">Section 3</div>
+  </main>
+<div class="flex flex-col md:flex-row gap-6 p-6">
+  <div class="flex-1 bg-indigo-100 p-4 text-center">Box 1</div>
+  <div class="flex-1 bg-indigo-200 p-4 text-center">Box 2</div>
+  <div class="flex-1 bg-indigo-300 p-4 text-center">Box 3</div>
+</div>
+
+  <footer>
+    <p>&copy; 2025 Responsive Example</p>
+  </footer>
+
+</body>
+</html>
