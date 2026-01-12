@@ -1,66 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Website Example</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    header, footer {
-      background-color: #4f46e5;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-    }
-
-    .container {
-      display: flex;
-      justify-content: space-between;
-      padding: 2rem;
-      gap: 2rem;
-    }
-
-    .box {
-      flex: 1;
-      background-color: #f3f4f6;
-      padding: 2rem;
-      text-align: center;
-      border-radius: 10px;
-    }
-
-    /* 📱 Mobile Devices */
-    @media (max-width: 768px) {
-      .container {
-        flex-direction: column;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medi Care - Health Landing Page</title>
+    <link rel="stylesheet" href="design.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <header>
-    <h1>Responsive Web Design</h1>
-  </header>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">MEDI CARE.</h1>
+            <div class="menu-icon">
+              <span></span>
+                <span></span>
+            </div>   
+            <ul class="nav-links">
+                <li><a href="#">Our Beliefs</a></li>
+                <li><a href="#">Faq</a></li>
+                <li><a href="#" class="login">Log in</a></li>
+            </ul>
+        </div>
+    </nav>
 
-  <main class="container">
-    <div class="box">Section 1</div>
-    <div class="box">Section 2</div>
-    <div class="box">Section 3</div>
-  </main>
-<div class="flex flex-col md:flex-row gap-6 p-6">
-  <div class="flex-1 bg-indigo-100 p-4 text-center">Box 1</div>
-  <div class="flex-1 bg-indigo-200 p-4 text-center">Box 2</div>
-  <div class="flex-1 bg-indigo-300 p-4 text-center">Box 3</div>
-</div>
+    <header class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <h2>Proper care <br> <span>for your health</span></h2>
+                <p>Lorem Ipsum is simply dummy text of the print and typeset industry. Lorem Ipsum has been the industry's standard.</p>
+                <div class="hero-btns">
+                    <button class="btn-primary">GET CARE</button>
+                    <button class="btn-secondary">CALL US NOW</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="beautiful-doctor-pointing-fingers_1258-16474.avif" alt="Doctor">
+            </div>
+        </div>
+    </header>
 
-  <footer>
-    <p>&copy; 2025 Responsive Example</p>
-  </footer>
+    <section class="features">
+        <div class="container features-grid">
+            <div class="feature-card">
+                <div class="icon">💼</div>
+                <h3>Easily Make An Appointment</h3>
+                <p>Lorem Ipsum is simply dummy text of the print and typeset industry.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">📹</div>
+                <h3>Online Treatment</h3>
+                <p>Lorem Ipsum is simply dummy text of the print and typeset industry.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">✅</div>
+                <h3>All Service is Free</h3>
+                <p>Lorem Ipsum is simply dummy text of the print and typeset industry.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-section">
+        <div class="container info-grid">
+            <div class="info-image">
+                <img src="images.jpg" alt="Patient Care">
+            </div>
+            <div class="info-text">
+                <h3>Fast, secure and convenient. Build for both doctors and patients.</h3>
+                <p>Lorem Ipsum is simply dummy text of the print and typeset industry. Lorem Ipsum has been the industry's standard.</p>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>
